@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: "Nunito",sans-serif;
+    background: #f8f8f8;
+    /* body{ */
+        background-image: url("https://res.cloudinary.com/ds5o5g3oc/image/upload/v1667965431/skcet/Q1/cloud_ji0g6k.jpg");
+        width: 100%;
+        /* height: 100vh; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: fixed;
+  }
+  
+  .input{
+    text-align: center;
+    margin: 100px auto;
+  }
+   img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
+  
+  input[type="submit"]{
+    padding: 15px 30px;
+    background: #e7e7e7;
+    border: none;
+    border-radius: 1px;
+    font-family: "Nunito",sans-serif;
+    font-weight:bold;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px;
+    font-size: 20px;
+  }
+  
+  .input input[type="text"]{
+    width: 600px;
+    height: 55px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px;
+    /* background: #e7e7e7; */
+    background:linear-gradient(135deg,rgb(183, 204, 61) 30%,pink);
+
+    border: none;
+    /* border-radius: 1px; */
+    font-family: "Nunito",sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+  }
+  
+  .card{
+    width: 50%;
+    /* background: #e7e7e7; */
+    background:linear-gradient(135deg,rgb(84, 153, 199) 30%,pink);
+
+    height: 40vh;
+    margin: 50px auto;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px;
+  }
+  .temp{
+    font-size: 40px;
+  }
+  
+  .close{
+    float: right;
+    margin-top: -2px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .card h1{
+    padding: 5px 0;
+    text-align: center;
+  }
+  
+  .card p{
+    text-align: center;
+    margin:40px 0;
+    font-size:20px;
+  }
